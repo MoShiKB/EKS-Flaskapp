@@ -48,7 +48,7 @@ Deploys those components:
 * Configure new SG for workers.
 * Deploy new EKS-Cluster.
 * Creates new node-group and add it to the cluster.
-* Configure kubernetes provider and deploy registry deployment and NodePort service.
+* Configure kubernetes provider and deploy Flask application deployment and LoadBalancer service.
 
 In order to start working with the cluster, you must run that command:
 ```
