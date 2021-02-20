@@ -56,6 +56,12 @@ aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terr
 ```
 It creates a new kubeconfig in ~/.kube/config which allows us to contact with the cluster.
 
+### Connecting
+Load Balancer DNS wil be printed and you have to run it in your browser:
+```
+lb_ip = "...:5000/..."
+```
+
 ## Built With
 * Terraform - infrastructure as code software
 
