@@ -1,5 +1,5 @@
-# EKS-Terraform
-EKS-Terraform deploys new eks cluster and all its dependencies.
+# EKS-Flaskapp
+EKS-Flaskapp deploys new eks cluster and all its dependencies, and then deploy our flask app.
 
 ## Getting Started
 Those instructions will deploy the cluster on AWS, see deploy section on how to deploy the project.
