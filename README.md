@@ -1,5 +1,5 @@
-# EKS-Terraform
-EKS-Terraform deploys new eks cluster and all its dependencies.
+# EKS-Flaskapp
+EKS-Flaskapp deploys new eks cluster and all its dependencies, and then deploy our flask app.
 
 ## Getting Started
 Those instructions will deploy the cluster on AWS, see deploy section on how to deploy the project.
@@ -48,7 +48,7 @@ Deploys those components:
 * Configure new SG for workers.
 * Deploy new EKS-Cluster.
 * Creates new node-group and add it to the cluster.
-* Configure kubernetes provider and deploy registry deployment and NodePort service.
+* Configure kubernetes provider and deploy Flask application deployment and LoadBalancer service.
 
 In order to start working with the cluster, you must run that command:
 ```
